@@ -34,7 +34,7 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>ezehfavour16@gmail.com</h5>
-            <a href="mailto:ezehfavour16@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:ezehfavour16@gmail.com" target='_blank' rel='noopener noreferrer'>Send a message</a>
 
           </article>
 
@@ -42,7 +42,7 @@ const Contact = () => {
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messanger</h4>
             <h5>FavourChime</h5>
-            <a href="https://web.facebook.com/profile.php?id=100081786768508" target='_blank'>Send a message</a>
+            <a href="https://web.facebook.com/profile.php?id=100081786768508" target='_blank' rel='noopener noreferrer'>Send a message</a>
 
           </article>
 
@@ -50,7 +50,7 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>+2347056597880</h5>
-            <a href="https://api.whatsapp.com/send?phone=+2347056597880" target='_blank'>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+2347056597880" target='_blank' rel='noopener noreferrer'>Send a message</a>
 
           </article>
         </div>
@@ -67,3 +67,7 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+
+
